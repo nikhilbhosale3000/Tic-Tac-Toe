@@ -1,46 +1,70 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #586BA4;
-    text-align: center;
+  background-color: #586ba4;
+  text-align: center;
+}
+
+.heading {
+  margin-top: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: #1a2e6b;
 }
 
 .container {
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .game {
-    height: 60vmin;
-    width: 60vmin;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5vmin;
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
 }
 
-.box{
-    height: 18vmin;
-    width: 18vmin;
-    border: none;
-    border-radius: 1rem;
-    background-color: #F5DD90;
-    font-size: 8vmin;
-    color: #F68E5F;
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border: none;
+  border-radius: 1rem;
+  border: 0.4rem solid #fad868;
+  background-color: #f5dd90;
+  font-size: 8vmin;
 }
 
-#reset{
-    padding: 1rem;
-    font-size: 1.25rem;
-    background-color: #324376;
-    color: #F76C5E;
-    border: none;
-    border-radius: 1rem;
+.button {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #324376;
+  color: #f76c5e;
+  border: 0.4rem solid #1e3064;
+  border-radius: 1rem;
+}
 
+.xMark {
+  color: #f76c5e;
+}
+
+.oMark {
+  color: #f33d2d;
+}
+
+.msg {
+  color: #f5dd90;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.hide {
+  visibility: hidden;
 }
